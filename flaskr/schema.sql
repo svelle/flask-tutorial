@@ -1,6 +1,6 @@
-drop table if exists entries;
-create table entries (
-    id integer primary key autoincrement,
-    title text not NULL,
-    'text' text not null
+DROP TABLE IF EXISTS entries;
+CREATE TABLE entries (
+  id     INTEGER PRIMARY KEY AUTOINCREMENT,
+  title  TEXT NOT NULL,
+  'text' TEXT NOT NULL
 );
